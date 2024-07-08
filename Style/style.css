@@ -10,3 +10,105 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+/* Banner style */
+.banner-section-container {
+  max-width: 1488px;
+  height: 650px;
+  /* border: 2px solid red; */
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.banner-container {
+  display: flex;
+  /* border: 2px solid goldenrod; */
+  width: 90%;
+  margin: 0 auto;
+}
+
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 650px;
+  /* border: 2px solid green; */
+}
+
+.banner-text-container button {
+  margin-right: 392px;
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: rgb(229, 84, 115);
+}
+
+.banner-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 650px;
+  /* border: 2px solid blue; */
+}
+
+.banner-image-container img {
+  width: 60%;
+  height: 650px;
+  /* border: 2px solid blue; */
+}
+
+/* 2nd part Images add */
+.featured-image-container {
+  width: 90%;
+  height: 650px;
+  margin: 0 auto;
+  margin-top: 130px;
+  /* border: 2px solid red; */
+}
+
+.featured-title-container {
+  /* border: 2px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.featured-images {
+  display: flex;
+  gap: 20px;
+  margin-top: 70px;
+  /* justify-content: space-evenly; */
+  /* height: 452px; */
+  /* border: 2px solid rgb(174, 8, 225); */
+}
+
+.first-img,
+.second-img,
+.third-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 530px;
+  /* border: 2px solid green; */
+  border-radius: 50% 50% 0 0;
+}
+
+.first-img {
+  background-color: rgba(166, 33, 97, 0.15);
+}
+.second-img {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.third-img {
+  background-color: rgba(71, 125, 17, 0.15);
+}
