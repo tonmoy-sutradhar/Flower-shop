@@ -82,13 +82,17 @@ body {
   margin: 0 auto;
 }
 
+/* Alt + Up arrow  for text direction*/
 .featured-images {
   display: flex;
-  gap: 20px;
-  margin-top: 70px;
-  /* justify-content: space-evenly; */
+  /* width: 1480px; */
+  gap: 15px;
+  margin: 0 auto;
+  /* margin-top: 70px; */
+  justify-content: space-evenly;
   /* height: 452px; */
   /* border: 2px solid rgb(174, 8, 225); */
+  /* border: 2px solid red; */
 }
 
 .first-img,
@@ -98,7 +102,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 33%;
-  height: 530px;
+  /* height: 530px; */
+  height: 450px;
   /* border: 2px solid green; */
   border-radius: 50% 50% 0 0;
 }
@@ -112,3 +117,190 @@ body {
 .third-img {
   background-color: rgba(71, 125, 17, 0.15);
 }
+
+.featured-flower-name {
+  display: flex;
+  /* text-align: center; */
+
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* gap: 450px; */
+  margin: 0 auto;
+}
+.featured-flower-name p {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Group style(Delivery , support etc 3rd page.... */
+.flower-delivery-container {
+  display: flex;
+  width: 90%;
+  height: 200px;
+  margin: 0px auto;
+  margin-top: 130px;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+  background-color: rgba(39, 39, 39, 0.05);
+}
+
+.flower-delivery-title {
+  /* flex-direction: column; */
+  justify-content: center;
+  text-align: center;
+  /* padding: 0 120px 0 120px; */
+
+  /* border: 2px solid blue; */
+}
+.flower-fresh-title {
+  text-align: center;
+  /* border: 2px solid green; */
+}
+.flower-support-title {
+  text-align: center;
+  /* border: 2px solid yellow; */
+}
+.flower-icon-text {
+  margin-top: 20px;
+}
+
+/* Sale page style ....................................*/
+.flower-sale-container {
+  max-width: 1488px;
+  height: 500px;
+  margin-top: 130px;
+  background-color: rgba(229, 84, 115, 0.05);
+  /* border: 2px solid red; */
+}
+
+.flower-sale-box {
+  display: flex;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+
+  /* border: 3px solid red; */
+}
+
+.sale-container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 500px;
+  /* margin: 0 0 100px 0; */
+  margin: 0 auto;
+  text-align: center;
+  /* border: 2px solid rgb(193, 14, 225); */
+}
+
+.sale-container-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+  /* border: 2px solid green; */
+}
+.discount {
+  color: rgb(229, 84, 115);
+}
+.sale-btn {
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  background-color: rgb(229, 84, 115);
+}
+
+/* Instagram section style....................... */
+.instagram-section-container {
+  /* display: flex; ekhane hbe na*/
+  width: 90%;
+  height: 1090px;
+  margin: 0px auto;
+  margin-top: 130px;
+  /* border: 2px solid red; */
+}
+
+.instagram-text-content {
+  height: 132px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  /* border: 2px solid blue; */
+}
+
+/* grid use kora hoi onk gulo chobi k ekshathe dekhanor jonno */
+.instagram-img-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.first-insta-img {
+  /* width: 342px;
+  height: 396px; */
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid violet; */
+}
+.first-insta-img img {
+  width: 90%;
+  height: 90%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+/* Latest deals style.....................  */
+.super-deals-container {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(../images/latest-deals-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 130px; */
+  border: 2px solid red;
+}
+
+.super-deals-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deals-content p {
+  margin-bottom: 30px;
+}
+.iput-field {
+  width: 300px;
+  height: 34px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  text-align: center;
+}
+
+#Subscribe-btn {
+  width: 100px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(229, 84, 115);
+  /* border: 3px solid red; */
+}
+
+/* .deals-content {
+  width: 400px;
+  height: 34px;
+  border: none;
+} */
